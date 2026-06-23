@@ -1,0 +1,89 @@
+<!-- experiences.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Experiences</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Sora:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<nav>
+  <h2>Riyadh <span>Saad</span></h2>
+
+  <ul id="actions">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About Me</a></li>
+    <li><a href="skills.html">Skills</a></li>
+    <li><a href="experiences.html">Experiences</a></li>
+    <li><a href="contactme.html">ContactMe</a></li>
+  </ul>
+  <button id="menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+</nav>
+
+<section class="experiences" id="experiences">
+    <div class="container-experiences">
+        <h1>Practical <span>experiences</span></h1>
+        <div class="content-experience">
+            <div class="experiences">
+                <p>
+                    At the Deanship of Information and Communications Technology at Najran University, 
+                    from June 2023 to August of the same year, I worked as a network and data center administrator, 
+                    and it was a good experience, as the nature of my work was to analyse, test, and troubleshoot errors,
+                     and I also evaluated the network systems within the university.
+                     I also went to one of the colleges within the university as technical support.
+                     <br><br>
+                     -------------------------------------------------------------------------------------
+                <br><br>
+               
+                Voluntary work – IT Department | Al-Hada Military Hospital | Taif | 2025
+                I participated in a 3-month voluntary program in the IT department, where I assisted in maintaining computer systems, supporting network operations, and learning about IT infrastructure in a healthcare environment.
+                <br><br>
+                -------------------------------------------------------------------------------------
+                <br><br>
+                Systems Analyst | Al-Jadar Almasi General Contracting Est. | Jeddah, Saudi Arabia
+Jul 2025 – Present
+	•	Analyze internal systems and propose improvements to enhance operational efficiency.
+	•	Organize and analyze company data, including project records and financial documents.
+	•	Handle and review VAT reports and ensure proper tax filing and compliance.
+	•	Support digital transformation and implement basic IT solutions for business processes.
+	•	Coordinate between the IT and construction teams to align system requirements.
+
+               </p>
+            </div>
+            </div>
+        </div>
+        <div class="container-images">
+           <img src="img/Expert.png" alt="">
+        </div>
+</section>
+<footer>
+    <div class="content-footer">
+        <h2>Riyadh <span>Alaamri</span></h2>
+        <p>
+            To contact me, please click on the contact Me link above
+        </p>
+        <p class="end">
+            <span>CopyRight By Riyadh Alaamri</span>
+        </p>
+    </div>
+</footer>
+<script>
+const menu = document.getElementById("menu");
+const actions = document.getElementById("actions");
+
+menu.addEventListener("click", () => {
+    menu.classList.toggle("is-active");
+    actions.classList.toggle("is-active");
+});
+</script>
+</body>
+</html>

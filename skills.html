@@ -1,0 +1,86 @@
+<!-- skills.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skills</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Sora:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<nav>
+  <h2>Riyadh <span>Saad</span></h2>
+
+  <ul id="actions">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About Me</a></li>
+    <li><a href="skills.html">Skills</a></li>
+    <li><a href="experiences.html">Experiences</a></li>
+    <li><a href="contactme.html">ContactMe</a></li>
+  </ul>
+  <button id="menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+</nav>
+
+<section class="skills" id="skills">
+    <h1 class="text-center">My<span>Skills</span></h1>
+    <div class="box">
+        <div class="card">
+            <i class="fa-solid fa-code"></i>
+            <h5>Proficient in many programming languages</h5>
+        </div>
+        <div class="card">
+            <i class="fa-solid fa-people-group"></i>
+            <h5>Teamwork</h5>
+        </div>
+        <div class="card">
+            <i class="fa-solid fa-head-side-virus"></i>
+            <h5>Critical Thinking</h5>
+        </div>
+        <div class="card">
+            <i class="fa-solid fa-check"></i>
+            <h5>Problem-Solving</h5>
+        </div>
+        <div class="card">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <h5>Attention to Detail</h5>
+            
+        </div>
+        <div class="card">
+            <i class="fa-solid fa-person-rays"></i>
+            <h5>Responsibility</h5>
+        </div>
+    </div>
+</section>
+ 
+<footer>
+    <div class="content-footer">
+        <h2>Riyadh <span>Alaamri</span></h2>
+        <p>
+            To contact me, please click on the contact Me link above
+        </p>
+        <p class="end">
+            <span>CopyRight By Riyadh Alaamri</span>
+        </p>
+    </div>
+</footer>
+
+<script>
+const menu = document.getElementById("menu");
+const actions = document.getElementById("actions");
+
+menu.addEventListener("click", () => {
+    menu.classList.toggle("is-active");
+    actions.classList.toggle("is-active");
+});
+</script>
+</body>
+</html>

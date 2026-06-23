@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Sora:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<nav>
+  <h2>Riyadh <span>Saad</span></h2>
+
+  <ul id="actions">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About Me</a></li>
+    <li><a href="skills.html">Skills</a></li>
+    <li><a href="experiences.html">Experiences</a></li>
+    <li><a href="contactme.html">ContactMe</a></li>
+  </ul>
+  <button id="menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+</nav>
+
+<section class="about-page">
+
+<section class="about" id="about">
+    <div class="container-images">
+        <img src="img/About.png" alt="">
+        </div>
+        <div class="container-texts">
+            <h1>About <span>Me</span></h1>
+            <h5><span>information </span>Systems Analyst </h5>
+            <p>
+                I am an Information Systems Analyst with a passion for learning and growth.
+                After graduating, I committed myself to continuous development — taking specialized courses,
+                 participating in volunteer projects, and actively seeking career opportunities.
+                
+                In 2025, I proudly earned a position as a Systems Analyst at Al-Jidar Al-Masi Contracting Company,
+                 where I continue to serve to this day. Through dedication and consistent effort,
+                 I have become one of the most trusted employees in the organization,
+                 especially in data analysis, system documentation, and requirement gathering — earning praise and recommendations from senior management.
+                
+                I am driven by curiosity and a desire to solve real-world problems through technology.
+                 My mission is to keep advancing professionally, expanding my skills, and making a meaningful impact wherever I work.
+            </p>
+        </div>
+</section>
+</section>
+<footer>
+    <div class="content-footer">
+        <h2>Riyadh <span>Alaamri</span></h2>
+        <p>
+            To contact me, please click on the contact Me link above
+        </p>
+        <p class="end">
+            <span>CopyRight By Riyadh Alaamri</span>
+        </p>
+    </div>
+</footer>
+<script>
+const menu = document.getElementById("menu");
+const actions = document.getElementById("actions");
+
+menu.addEventListener("click", () => {
+    menu.classList.toggle("is-active");
+    actions.classList.toggle("is-active");
+});
+</script>
+</body>
+</html>

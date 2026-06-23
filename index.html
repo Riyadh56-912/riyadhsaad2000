@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Riyadh Alamri</title>
+    <meta name="description" content="CV - Information About Me ...">
+    <meta name="description" content="Riyadh, Alamri, CV">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="icon/Icon-site.png">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Sora:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+<section class="home" id="home">
+    <nav>
+        <h2>Riyadh <span>Saad</span></h2>
+        <ul id="actions">
+                <li><a href="#home">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="experiences.html">Practical Experiences</a></li>
+                <li><a href="contactme.html">ContactMe</a></li>
+               
+                
+    </ul>
+    <button id="menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+    </nav>
+    <div class="content">
+    <div class="container-texts">
+        <h2>Hello<h4>my name is</h4></h2>
+        <h1><span>Riyadh </span>Alaamri</h1>
+        <h3>Bachelor's degree in <span>Computer-Information-System<br><br><h4>Currently
+             working as a <span>Information Systems Analyst</span>
+             <br>at Al Jidar Almasi General Contracting Est since 2025.</h4></span></h3>
+        
+        
+        <a href="contactme.html" target="_blank" class="btn">Contact Me</a>
+        <a href="CV-RIYADH.pdf" target="_blank" download class="btn">Download CV</a>
+        <div class="social">
+
+    <a href="https://www.linkedin.com/in/%D8%B1%D9%8A%D8%A7%D8%B6-%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%B1%D9%8A-74a721238/" target="_blank">
+        <i class="fa-brands fa-linkedin-in"></i>
+    </a>
+
+    <a href="https://twitter.com/Riya_aaaaa1" target="_blank">
+        <i class="fa-brands fa-x-twitter"></i>
+    </a>
+
+</div>
+    </div>
+    <div class="container-images">
+        <img src="img/Shapee.png" alt="" class="shape">
+        <img src="icon/Hi.png" alt="" class="pic">
+    </div>
+    </div>
+</section>   
+<form name="contact" netlify netlify-honeypot="bot-field" hidden>
+  <input type="text" name="name" />
+  <input type="email" name="email" />
+  <textarea name="message"></textarea>
+</form>
+<footer>
+    <div class="content-footer">
+        <h2>Riyadh <span>Alaamri</span></h2>
+        <p>
+            To contact me, please click on the contact Me link above
+        </p>
+        <p class="end">
+            <span>CopyRight By Riyadh Alaamri</span>
+        </p>
+    </div>
+</footer>
+<script>
+const menu = document.getElementById("menu");
+const actions = document.getElementById("actions");
+
+menu.addEventListener("click", () => {
+    menu.classList.toggle("is-active");
+    actions.classList.toggle("is-active");
+});
+</script>
+</body>
+</html>
